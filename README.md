@@ -8,27 +8,27 @@ https://www.icetrack.online/wiki/hardware/calamp
 - bei Traccar / Ruhavik die ESN Nummer als Kennung nutzen.
 - (welche auf dem Sticker unter dem Tanktaler Sticker ist.)
 
-1. SMS an Box:
-   > [!NOTE]
-   > APN
-   > -     !RP,2306,0,xxx_APN_xxx
-   > APN username (meist nicht benötigt)
-   > -     !RP,2314,0,xxx_username_xxx
-   > APN password (meist nicht benötigt)  
-   > -     !RP,2315,0,xxx_password_xxx
+SMS an Box:
+> [!NOTE]
+> APN
+> -     !RP,2306,0,xxx_APN_xxx
+> APN username (meist nicht benötigt)
+> -     !RP,2314,0,xxx_username_xxx
+> APN password (meist nicht benötigt)  
+> -     !RP,2315,0,xxx_password_xxx
 
-   > [!NOTE]
-   > SERVER
-     > -      !RP,2319,0,demo3.traccar.org
-     > -      !RP,2319,1,demo3.traccar.org
-   > Port (Traccar = 5082 / Ruhavik = 21007)
-     > -      !RP,769,0,5082
+> [!TIP]
+> SERVER
+  > -      !RP,2319,0,demo3.traccar.org
+  > -      !RP,2319,1,demo3.traccar.org
+> Port (Traccar = 5082 / Ruhavik = 21007)
+  > -      !RP,769,0,5082
 
-   > [!NOTE]
-   > speichern
-     > -      !RP,1024,35,255,1
-   > Neustart
-     > -      !R3,70,0
+> [!TIP]
+> speichern
+  > -      !RP,1024,35,255,1
+> Neustart
+  > -      !R3,70,0
 
 
 --------- Specials, welche nicht benötigt werden, jedoch Infos geben
