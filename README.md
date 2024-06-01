@@ -50,6 +50,8 @@ Infos zu acc's:
 ---------------------
 APN Daten
 - Vodafone (user + pw nicht benötigt): !RP,2306,0,web.vodafone.de
+- Netzclub (user + pw nicht benötigt): !RP,2306,0,pinternet.interkom.de
+- O2 (user + pw nicht benötigt): !RP,2306,0,internet
 ---------------------
 - um aktuell eingestellte dinge abzufragen das Komma nach RP gegen ? tauschen und Wert weglassen z.Bsp.:
 - !RP?2306,0
