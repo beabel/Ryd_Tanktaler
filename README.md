@@ -31,9 +31,9 @@
    - Bei ausreichend Guthaben sollte immer ein "OK" zurückkommen.
 
 ### Beispiel für eine komplette SMS-Befehlsabfolge:
-(APN Netzclub: `pinternet.interkom.de`, Traccar Server: `demo3.traccar.org`)
+(APN Netzclub: `pinternet.interkom.de`, Traccar Server: `demo3.traccar.org` ersetzen durch eigene Daten)
 
-Beispiel für eine komplette SMS Befehls abfolge (pinternet.interkom.de == APN Netzclub / demo3.traccar.org == Traccar Server):
+Beispiel für eine komplette SMS Befehls abfolge:
 ```
 !RP,2306,0,!RP,2306,0,pinternet.interkom.de
 !RP,2319,0,demo3.traccar.org
