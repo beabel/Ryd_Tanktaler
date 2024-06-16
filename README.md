@@ -1,5 +1,47 @@
-# Ryd_Tanktaler
+# Ryd Tanktaler weiter nutzen mit eigenen Traccar Server
 
+## Vorbereitungen:
+1. **Traccar Server einrichten:**
+   - Port `5082` für Daten vom Calamp durchleiten.
+   - Port `8082` durchleiten, wenn WebAnsicht auch von außen gewünscht wird.
+   
+2. **DynDNS einrichten:**
+   - DynDNS auf dem Server einrichten.
+   - Beispiel bei einer FritzBox: `il0hhfbacskhfmax.myfritz.net`
+
+3. **Neues Gerät auf dem Traccar Server einrichten:**
+   - Als Kennung die `ESN` verwenden, die sich unter dem Tanktaler/Ryd Kleber befindet.
+
+## Stecker einrichten:
+1. **Stecker vorsichtig öffnen:**
+   - Mit einem Schraubendreher leicht an den Seiten drehen, um die Seiten auseinander zu schieben.
+
+2. **Alte SIM entfernen:**
+   - Verwende eine Nadel, um die Karte herauszuschieben.
+
+3. **SIM Sperre entfernen:**
+   - Mit einem Handy die SIM Sperre auf der neuen Karte entfernen.
+   - Hinweis: Es wird eine große, originale SIM benötigt (neue Phones haben meist kleinere SIMs).
+
+4. **Neue SIM einlegen:**
+   - Die neue SIM in den Stecker einlegen.
+
+5. **Einrichtungs-SMS senden:**
+   - Am besten mit angeschalteter Zündung die Einrichtungs-SMS absenden.
+   - Bei ausreichend Guthaben sollte immer ein "OK" zurückkommen.
+
+### Beispiel für eine komplette SMS-Befehlsabfolge:
+(APN Netzclub: `pinternet.interkom.de`, Traccar Server: `demo3.traccar.org`)
+
+Beispiel für eine komplette SMS Befehls abfolge (pinternet.interkom.de == APN Netzclub / demo3.traccar.org == Traccar Server):
+```
+!RP,2306,0,!RP,2306,0,pinternet.interkom.de
+!RP,2319,0,demo3.traccar.org
+!RP,769,0,5082
+!RP,1024,35,255,1
+!R3,70,0
+```
+## Weitere Informationen:
 https://fcc.report/FCC-ID/APV-3030GBT/2398777.pdf
 
 https://www.icetrack.online/wiki/hardware/calamp
