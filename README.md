@@ -41,6 +41,12 @@ Beispiel für eine komplette SMS Befehls abfolge (pinternet.interkom.de == APN N
 !RP,1024,35,255,1
 !R3,70,0
 ```
+APN
+Server
+Port
+speichern
+Neustart
+
 ## Weitere Informationen:
 https://fcc.report/FCC-ID/APV-3030GBT/2398777.pdf
 
