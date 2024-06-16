@@ -6,7 +6,7 @@
    - Port `8082` durchleiten, wenn WebAnsicht auch von außen gewünscht wird.
    
 2. **DynDNS einrichten:**
-   - DynDNS auf dem Server einrichten.
+   - DynDNS auf dem Router einrichten.
    - Beispiel bei einer FritzBox: `il0hhfbacskhfmax.myfritz.net`
 
 3. **Neues Gerät auf dem Traccar Server einrichten:**
