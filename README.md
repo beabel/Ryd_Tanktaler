@@ -95,7 +95,7 @@ Infos zu acc's:
 - acc22: gefahrene Sekunden (aktueller Trip)
 - acc27: Batterie Spannung * 1000 (Auto)
 - acc30: Akku Spannung * 1000 (interner AKKU)
-- acc04: Tankfüllstand (Wert/100=Füllstand in %)
+- acc04: Tankfüllstand (Wert/100=Füllstand in %) <-- dies funktioniert nicht bei allen, bei mir ist es immer leer
 ---------------------
 APN Daten
 - Vodafone (user + pw nicht benötigt): !RP,2306,0,web.vodafone.de
