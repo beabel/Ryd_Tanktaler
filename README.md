@@ -35,7 +35,7 @@
 
 Beispiel für eine komplette SMS Befehls abfolge:
 ```
-!RP,2306,0,!RP,2306,0,pinternet.interkom.de
+!RP,2306,0,pinternet.interkom.de
 !RP,2319,0,demo3.traccar.org
 !RP,769,0,5082
 !RP,1024,35,255,1
